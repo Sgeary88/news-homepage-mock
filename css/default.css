@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=Gelasio:wght@400;500;700&family=Inter:wght@400;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=Gelasio:wght@400;500;700&family=Inter:wght@400;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
 
 :root {
 	--primary-color: #e9ab53;
@@ -23,16 +23,22 @@ body {
 	font-family: 'Intern', sans-serif;
 	padding: 0;
 	margin: 0;
-	line-height: 1.5;
 	background-image: url('../images/background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+p {
 	margin: 0;
+	padding: 0;
 }
 
 
@@ -54,4 +60,3 @@ a {
 .container {
 	width: 100%;
 }
-

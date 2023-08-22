@@ -4,6 +4,7 @@
 	margin: 9.375rem;
 	padding: 4.688rem 6.25rem;
 	background-color: var(--neutral-white);
+	max-width: 1440px;
 }
 
 .home .navbar {
@@ -37,36 +38,91 @@
 
 /*************************** MAIN GRID STYLES  ************************/
 
-.main-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-areas: 
-	'image image new'
-	'header header-text new';
-	margin-top: 3.5rem;
-	grid-gap: 2rem;
+.main {
+	margin-top: 3rem;
 }
 
-.grid-header {
-	font-size: 56px;
+.main-container {
+	display: flex;
+}
+
+.left-main {
+	flex-basis: 100%;
+}
+
+.right-main {
+	flex-basis: 50%;
+}
+
+.header-container {
+	display: flex;
+	margin-top: 3rem;
+}
+
+.main-header {
+	font-size: 3rem;
 	line-height: 1;
 	font-weight: 800;
 }
 
-.grid-image {
-	grid-area: image;
-}
-
-.grid-header {
-	grid-area: header;
-}
-
+.main-header,
 .header-info {
-	grid-area: header-text;
+	flex-basis: 50%;
+}
+
+.header-text {
+	font-size: 1.2rem;
+	color: var(--medium-gray-blue);
+	line-height: 1.3;
+}
+
+.header-button {
+	margin-top: 40px;
+}
+
+.header-button button {
+	background-color: var(--secondary-color);
+	color: var(--neutral-white);
+	font-size: 1.1rem;
+	letter-spacing: 5px;
+	padding: 20px 40px;
+	font-weight: 600;
+	outline: transparent;
+	border: transparent;
+}
+
+.header-button button:hover {
+	background-color: var(--dark-gray-blue);
 }
 
 .new-stories {
-	grid-area: new;
+	margin-left: 2.5rem;
+	padding: 1.5rem;
+	background-color: var(--dark-gray-blue);
 }
 
-/* fsdlfjasdf */
+.new-stories h2 {
+	font-size: 3rem;
+	color: var(--primary-color);
+	padding-bottom: 1.25rem;
+}
+
+.new-stories .sub-header {
+	padding-top: 1rem;
+	padding-bottom: 1.4rem;
+	font-size: 1.3rem;
+}
+
+.new-stories .sub-header a {
+	color: var(--neutral-white);
+}
+
+.new-stories .sub-header a:hover {
+	color: var(--primary-color);
+}
+
+.new-stories p {
+	padding-bottom: 2rem;
+	color: var(--medium-gray-blue);
+	font-size: 1.2rem;
+}
