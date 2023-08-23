@@ -27,6 +27,7 @@
 
 .navbar-nav .nav-items:hover {
 	color: var(--secondary-color);
+	cursor: pointer;
 }
 
 .nav-items:nth-child(5) {
@@ -90,6 +91,7 @@
 
 .header-button button:hover {
 	background-color: var(--dark-gray-blue);
+	cursor: pointer;
 }
 
 .new-stories {
@@ -136,6 +138,7 @@
 
 .bottom-container .flex-item {
 	display: flex;
+	width: 650px;
 }
 
 .flex-image img {
