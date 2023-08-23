@@ -1,7 +1,7 @@
 /*************************** NAV STYLES  ************************/
 
 .home {
-	margin: 9.375rem;
+	/* margin: 9.375rem; */
 	padding: 4.688rem 6.25rem;
 	background-color: var(--neutral-white);
 	max-width: 1440px;
